@@ -15,10 +15,10 @@ app.get("/books", (req, res) => {
         },
         {
             title:"Guiness World Records",
-            image: "https://images.unsplash.com/photo-1527422265102                     -22027ee90fcd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a9a1bba5014e41cb84a45574a9c87901&auto=format&fit=crop&w=700&q=60"
+            image: "https://images.unsplash.com/photo-1532348374062-fee19177e98f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4086d5d36662ba037e49111340611aa&auto=format&fit=crop&w=700&q=60"
         }
-    ];1
-    res.render("books");
+    ];
+    res.render("books",{books:books});
 });
 
 app.listen(3000, () =>
