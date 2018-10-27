@@ -99,6 +99,15 @@ body {
     transition-duration: 0.7s;
 }
 
+.section {
+    padding: 20px 0;
+}
+
+.section-b {
+    background: #333;
+    color: #fff;
+}
+
 @media (max-width: 960px) {
    .v-container{
        padding-right:3rem ;

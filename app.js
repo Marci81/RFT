@@ -1,7 +1,11 @@
 const express = require("express");
 const app = express();
+const bodyParser = require("body-parser");
+
 
 app.set("view engine", "ejs");
+
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", (req, res) => {
@@ -21,6 +25,11 @@ app.get("/books", (req, res) => {
     ];
     res.render("books",{books:books});
 });
+
+app.post("/books",(req,res)=>{
+    res.send("You hit the post route");
+});
+
 
 app.listen(3000, () =>
     console.log("Started on port 3000...")
