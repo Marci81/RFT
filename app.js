@@ -30,6 +30,11 @@ app.post("/books",(req,res)=>{
     res.send("You hit the post route");
 });
 
+app.get("/books/new",(req,res)=>{
+    res.render("new.ejs")
+});
+
+
 
 app.listen(3000, () =>
     console.log("Started on port 3000...")
