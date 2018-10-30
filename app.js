@@ -17,6 +17,30 @@ let books = [
     {
         title:"Guiness World Records",
         image: "https://images.unsplash.com/photo-1532348374062-fee19177e98f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4086d5d36662ba037e49111340611aa&auto=format&fit=crop&w=700&q=60"
+    },
+    {
+        title: "Harry Potter",
+        image: "https://images.unsplash.com/photo-1530027801118-fee21a67b3af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e271bf72dbc65bf5970a850e314d5ce&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+        title:"Guiness World Records",
+        image: "https://images.unsplash.com/photo-1532348374062-fee19177e98f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4086d5d36662ba037e49111340611aa&auto=format&fit=crop&w=700&q=60"
+    },
+    {
+        title: "Harry Potter",
+        image: "https://images.unsplash.com/photo-1530027801118-fee21a67b3af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e271bf72dbc65bf5970a850e314d5ce&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+        title:"Guiness World Records",
+        image: "https://images.unsplash.com/photo-1532348374062-fee19177e98f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4086d5d36662ba037e49111340611aa&auto=format&fit=crop&w=700&q=60"
+    },
+    {
+        title: "Harry Potter",
+        image: "https://images.unsplash.com/photo-1530027801118-fee21a67b3af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e271bf72dbc65bf5970a850e314d5ce&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+        title:"Guiness World Records",
+        image: "https://images.unsplash.com/photo-1532348374062-fee19177e98f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4086d5d36662ba037e49111340611aa&auto=format&fit=crop&w=700&q=60"
     }
 ];
 
@@ -44,6 +68,10 @@ app.post("/books",(req,res)=>{
 
 app.get("/books/new",(req,res)=>{
     res.render("new.ejs")
+});
+
+app.get("/books/:id",function (req, res) {
+   res.render("partials/header") ;
 });
 
 
