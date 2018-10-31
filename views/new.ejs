@@ -1,13 +1,187 @@
 <% include partials/header %>
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<style type="text/css">
 
-<h1>Create a New Book</h1>
+    body{
+        background: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    }
 
-<form action="/books" method="post">
-    <input type="text" name="title" placeholder="title">
-    <input type="text" name="image" placeholder="url">
-    <button>Submit</button>
+
+    .form-container {
+        opacity: 0.8;
+        text-align: center;
+        margin: 10% auto;
+        border: 1px solid #f2e3d2;
+        background: #fdfdfd;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#fdfdfd));
+        background: -webkit-linear-gradient(top, #fdfdfd, #fdfdfd);
+        background: -moz-linear-gradient(top, #fdfdfd, #fdfdfd);
+        background: -ms-linear-gradient(top, #fdfdfd, #fdfdfd);
+        background: -o-linear-gradient(top, #fdfdfd, #fdfdfd);
+        background-image: -ms-linear-gradient(top, #fdfdfd 0%, #fdfdfd 100%);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: rgba(000, 000, 000, 0.9) 0 1px 2px, inset rgba(255, 255, 255, 0.4) 0 0px 0;
+        -moz-box-shadow: rgba(000, 000, 000, 0.9) 0 1px 2px, inset rgba(255, 255, 255, 0.4) 0 0px 0;
+        box-shadow: rgba(000, 000, 000, 0.9) 0 1px 2px, inset rgba(255, 255, 255, 0.4) 0 0px 0;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        text-decoration: none;
+        vertical-align: middle;
+        min-width: 300px;
+        padding: 20px;
+        width: 500px;
+    }
+
+    .form-field {
+        border: 1px solid #c9b7a2;
+        background: #fdf3cb;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        color: #a89074;
+        -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
+        -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
+        box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(000, 000, 000, 0.7) 0 0px 0px;
+        padding: 8px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+
+    .form-field:focus {
+        background: #fdf3cb;
+        color: #000000;
+    }
+
+    .form-container h2 {
+        text-shadow: #fdf2e4 0 1px 0;
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .form-title {
+        font-family:'Gentium Book Basic', serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #242424;
+        text-shadow: #fdf2e4 0 1px 0;
+    }
+
+    .form-title h2 {
+        font-size: 4rem;
+        font-style: italic;
+        padding-bottom: 10px;
+        font-family: Rochester, fantasy;
+    }
+
+    .submit-container {
+        margin: 8px 0;
+        text-align: center;
+    }
+
+    .submit-button {
+
+        border: 1px solid #919191;
+        background: #f3efe8;
+        background: -webkit-gradient(linear, left top, left bottom, from(#f3efe8), to(#f3efe8));
+        background: -webkit-linear-gradient(top, #f3efe8, #f3efe8);
+        background: -moz-linear-gradient(top, #f3efe8, #f3efe8);
+        background: -ms-linear-gradient(top, #f3efe8, #f3efe8);
+        background: -o-linear-gradient(top, #f3efe8, #f3efe8);
+        background-image: -ms-linear-gradient(top, #f3efe8 0%, #f3efe8 100%);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+        -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+        box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+        text-shadow: #858585 0 1px 0;
+        color: #000000;
+        font-family: helvetica, serif;
+        padding: 8.5px 18px;
+        font-size: 14px;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-top: 20px;
+    }
+
+    .submit-button:hover {
+        border: 1px solid #3f403f;
+        text-shadow: #000000 0 1px 0;
+        background: #dbe0d7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ded7de), to(#dbe0d7));
+        background: -webkit-linear-gradient(top, #ded7de, #dbe0d7);
+        background: -moz-linear-gradient(top, #ded7de, #dbe0d7);
+        background: -ms-linear-gradient(top, #ded7de, #dbe0d7);
+        background: -o-linear-gradient(top, #ded7de, #dbe0d7);
+        background-image: -ms-linear-gradient(top, #ded7de 0%, #dbe0d7 100%);
+        color: #000000;
+    }
+
+    .submit-button:active {
+        text-shadow: #454545 0 1px 0;
+        border: 1px solid #707070;
+        background: #bfc9b5;
+        background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#dbe0d7));
+        background: -webkit-linear-gradient(top, #cccccc, #bfc9b5);
+        background: -moz-linear-gradient(top, #cccccc, #bfc9b5);
+        background: -ms-linear-gradient(top, #cccccc, #bfc9b5);
+        background: -o-linear-gradient(top, #cccccc, #bfc9b5);
+        background-image: -ms-linear-gradient(top, #cccccc 0%, #bfc9b5 100%);
+        color: #000000;
+    }
+    .container{
+        margin: 0 auto;
+        text-align: left;
+        width: 300px;
+    }
+    .container input{
+        float: left;
+    }
+    @media screen and (max-width: 560px) {
+        .form-container{
+            width: 80%;
+            margin-top: 27%;
+        }
+
+    }
+    h1{
+        position: absolute;
+        margin-left: 10px;
+        top: 0;
+        left: 0;
+    }
+    #bold{
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+
+</style>
+
+
+<!--<form action="/books" method="post">-->
+<!--<input type="text" name="title" placeholder="title">-->
+<!--<input type="text" name="image" placeholder="url">-->
+<!--<button>Submit</button>-->
+<!--</form>-->
+<h1>book<span id="bold">review</span></h1>
+
+<form class="form-container" action="/books" method="post">
+    <div class="container">
+        <div class="form-title"><h2>Create New Book</h2></div>
+        <div class="form-title">Title</div>
+        <input class="form-field" type="text" name="title" placeholder="Harry Potter"/><br/>
+        <div class="form-title">Image</div>
+        <input class="form-field" type="text" name="image"/><br/>
+        <div class="submit-container">
+            <input class="submit-button" type="submit" value="Submit"/>
+        </div>
+    </div>
 </form>
 
-<a href="/books">Books</a>
+<a href="/books">Go Back</a>
 
 <% include partials/foter %>

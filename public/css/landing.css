@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.button{
+    border-radius: 10%;
+}
+
+
 body {
     margin: 0;
     font-family:'Gentium Book Basic', serif;
