@@ -3,6 +3,10 @@ const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
+//Models
+const Book = require("./models/book");
+
+
 mongoose.connect("mongodb://localhost/bookReviewRft", {useNewUrlParser: true});
 
 
@@ -12,14 +16,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 
 
-//TODO Separate them later
-let bookSchema = new mongoose.Schema({
-    title: String,
-    image: String,
-    description: String
-});
 
-let Book = mongoose.model("Book", bookSchema);
+
 
 
 //TODO Create New Book Just Uncomment The Following Code
