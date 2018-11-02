@@ -23,18 +23,18 @@ let Book = mongoose.model("Book", bookSchema);
 
 
 //TODO Create New Book Just Uncomment The Following Code
-Book.create({
-    title: "Harry Potter",
-    image: "https://images.unsplash.com/photo-1530027801118-fee21a67b3af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e271bf72dbc65bf5970a850e314d5ce&auto=format&fit=crop&w=750&q=80",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae varius ipsum, non ullamcorper ex. Morbi aliquam consectetur ligula, nec fringilla metus tempus vitae. Nulla facilisi. Etiam quis convallis tortor. Integer auctor efficitur dapibus."
-}, function (err, book) {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log("New Book:");
-        console.log(book);
-    }
-});
+// Book.create({
+//     title: "Harry Potter",
+//     image: "https://images.unsplash.com/photo-1530027801118-fee21a67b3af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e271bf72dbc65bf5970a850e314d5ce&auto=format&fit=crop&w=750&q=80",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae varius ipsum, non ullamcorper ex. Morbi aliquam consectetur ligula, nec fringilla metus tempus vitae. Nulla facilisi. Etiam quis convallis tortor. Integer auctor efficitur dapibus."
+// }, function (err, book) {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log("New Book:");
+//         console.log(book);
+//     }
+// });
 
 
 app.get("/", (req, res) => {
@@ -47,7 +47,7 @@ app.get("/books", (req, res) => {
         if (err) {
             console.log(err);
         } else {
-            res.render("books", {books: booksFromDB});
+            res.render("index", {books: booksFromDB});
         }
     });
 
@@ -76,7 +76,15 @@ app.get("/books/new", (req, res) => {
 });
 
 app.get("/books/:id", (req, res) => {
-    res.render("show");
+    Book.findById(req.params.id, (err, foundBook) => {
+        if (err) {
+            console.log(err);
+        } else {
+            res.render("show",{book:foundBook});
+        }
+    });
+
+
 });
 
 
