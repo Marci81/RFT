@@ -3,6 +3,10 @@ const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
+const clean = require("./cleanDB");
+
+clean();
+
 //Models
 const Book = require("./models/book");
 
@@ -16,11 +20,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 
 
-
-
-
-
-//TODO Create New Book Just Uncomment The Following Code
+//Create New Book Just Uncomment The Following Code
 // Book.create({
 //     title: "Harry Potter",
 //     image: "https://images.unsplash.com/photo-1530027801118-fee21a67b3af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e271bf72dbc65bf5970a850e314d5ce&auto=format&fit=crop&w=750&q=80",
@@ -73,16 +73,19 @@ app.get("/books/new", (req, res) => {
     res.render("new.ejs")
 });
 
+
+
+//To use referenced data in a template
 app.get("/books/:id", (req, res) => {
-    Book.findById(req.params.id, (err, foundBook) => {
-        if (err) {
-            console.log(err);
-        } else {
-            res.render("show",{book:foundBook});
-        }
-    });
-
-
+    Book.findById(req.params.id)
+        .populate("comments").exec(function (err, foundBook) {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(foundBook);
+                res.render("show", {book: foundBook});
+            }
+        })
 });
 
 
