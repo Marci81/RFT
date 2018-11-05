@@ -1,0 +1,30 @@
+Követelményspecifikáció
+
+Mit is jelent?
+Az igények, követelmények elemzése, meghatározása
+Alapjait a megrendelõkkel készített riportok adják
+
+Fõbb részei:
+Jelenlegi helyzet leírása.
+Vágyálomrendszer leírása.
+A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+Jelenlegi üzleti folyamatok modellje.
+Igényelt üzleti folyamatok modellje.
+Követelménylista.
+Irányított és szabad szöveges riportok szövege.
+Fogalomszótár.
+Ezek közül a követelménylista kötelezõ
+A követelménylistában funkcionális és nemfunkcionális követelmények vannak. A legtipikusabb nemfunkcionális követelmények ezek:
+helyesség,
+használhatóság,
+megbízhatóság,
+adaptálhatóság / hordozhatóság,
+karbantarthatóság,
+hatékonyság / magas teljesítmény,
+hibatûrés / robosztusság,
+bõvíthetõség / flexibilitás,
+újrahasznosíthatóság,
+kompatibilitás,
+könnyen megvásárolható vagy letölthetõ.
+
+
