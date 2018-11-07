@@ -5,16 +5,38 @@ Az igények, követelmények elemzése, meghatározása
 Alapjait a megrendelõkkel készített riportok adják
 
 Fõbb részei:
+
 Jelenlegi helyzet leírása.
+
+	Jelenleg nem létezik olyan egységes magyar nyelvû könyvadatbázis ami kifejezetten csak a könyvek szeretõinek a kiszolgálását szolgálná, azaz nem akarná egybõl eladni az adott könyvet a fogyasztónak. Többnyire webáruházak kínálnak erre lehetõséget, de ezek a webáruházak, csak az álltaluk is forgalmazott könyvek esetében tartalmaznak leírásokat és adatokat a könyvrõl.
+
 Vágyálomrendszer leírása.
+
+	A vágyálom egy olyan weboldal létrehozása, melyen a könyvbarát fogyasztók, lehetõleg minnél több könyvrõl információhoz jussanak, ezeket értékelhessék és beszélhessenek róla azokkal akik szintén olvasták az adott könyvet vagy egyszerûen csak ki szeretnék kérni a véleményt, hogy megéri-e számukra elolvasni vagy sem.
+
 A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+
 Jelenlegi üzleti folyamatok modellje.
+
+
+
 Igényelt üzleti folyamatok modellje.
+
+
+
 Követelménylista.
+
+
 Irányított és szabad szöveges riportok szövege.
+
+
 Fogalomszótár.
+
+
 Ezek közül a követelménylista kötelezõ
+
 A követelménylistában funkcionális és nemfunkcionális követelmények vannak. A legtipikusabb nemfunkcionális követelmények ezek:
+
 helyesség,
 használhatóság,
 megbízhatóság,
