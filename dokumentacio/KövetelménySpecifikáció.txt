@@ -18,17 +18,28 @@ A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások 
 
 Jelenlegi üzleti folyamatok modellje.
 
-
+	Jelenleg nem rendelkezünk egy alap marketingel ami, a leendõ oldalnak hozhat majd némi nézettséget, egy másik könyvekkel kapcsolatos projekt alatt folytatott marketing kampány elérheti a kívánt célközönséget.
 
 Igényelt üzleti folyamatok modellje.
 
-
+	Fontos a reklámozás mint üzleti folyamat kiépítése, ez az ami megfelelõ látogatottság mellet lehetõvé teszi az oldal profitábilis mûködését. A reklámozásból befolyt összegbõl befektetés gyanánt nagyobb szervereket bérelhetünk az adatbázisunk bõvítéséhez és az oldal stabilitásának növelése érdekében. 
 
 Követelménylista.
 
 
 Irányított és szabad szöveges riportok szövege.
 
+Szabad Riport Szövege
+	Mit szeretne, mit csináljon az oldal?
+		-Szeretném, ha egy olyan rendszert készítenének amely megfelelõen kezeli a felhasználók által az adatbázishoz adott könyveket, tudnak benne keresni, rangsorolni és értekezni a témán belüli dolgokról. Mivel ilyen átfogó weboldal még nem létezik, így mindenképpen kiemelkedõnek találom egy ilyen oldal létrehozását. Mivel jómagam is szeretem a könyveket így örömmel venném, ha egy igazán felhasználóbarát és az olvasás szerelmeseinek megfelelõ teret tudna nyújtani, aggresszív reklámozáson kívül amivel a könyves webáruházak esetében szembesülünk. 
+
+Irányított Riport
+	
+	SzoftverCég: Mi a véleménye az internetes könyvadatbázisról?
+	
+	SzoftverCég: Mit gondol arról, hogy a könyvek leírását és különbözõ jellemzõit egy saját szerveren tároljuk?
+	
+	SzoftverCég: 
 
 Fogalomszótár.
 
