@@ -1,0 +1,26 @@
+<% include ../partials/header %>
+<% include ../partials/navbar %>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link rel="stylesheet" href="/css/newBookForm.css">
+
+
+<h1>book<span id="bold">review</span></h1>
+
+<form class="form-container" action="/books" method="post">
+    <div class="container">
+        <div class="form-title"><h2>Regisztráció</h2></div>
+        <div class="form-title">Felhasználónév</div>
+        <input class="form-field" type="text" name="felhasznalo" placeholder="Felhasznalónév"/><br/>
+        <div class="form-title">Jelszó</div>
+        <input class="form-field" type="password" name="jelszo"/><br/>
+        <div class="submit-container">
+            <input class="submit-button" type="submit" value="Re"/>
+        </div>
+    </div>
+</form>
+
+<a href="/">Go Back</a>
+
+<% include ../partials/foter %>
+<% include ../partials/foter %>
