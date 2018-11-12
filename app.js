@@ -118,6 +118,13 @@ app.post("/books/:id/comments", (req, res) => {
     })
 });
 
+app.get("/signup", (req, res) => {
+
+            res.render("signup/index");
+
+
+});
+
 
 app.listen(3000, () =>
     console.log("Started on port 3000...")
