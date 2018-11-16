@@ -21,11 +21,19 @@ ajánlások felsorolása.
 
    A) Kik, és mire akarják használni a rendszert (Felhasználók információs igényeinek elemzése.):
 
-       A rendszert könyv rajongók fogják látogatni, akik folyamatosan új könyveket, akarnak olvasni.
-       Ezen kívül olyanoknak is alkalmas lesz, akik csak statisztikákat akarnak látni arról, hogy melyik könyvet hányan, olvassák mi a legnépszerűbb stb.
-       Továbbá írók akik tudják hirdetni népszerűsíteni a könyveiket.
+       1,A rendszert könyv rajongók fogják látogatni, akik folyamatosan új könyveket, akarnak olvasni.
+       2,Ezen kívül olyanoknak is alkalmas lesz, akik csak statisztikákat akarnak látni arról, hogy melyik könyvet hányan, olvassák mi a legnépszerűbb stb.
+       3,Továbbá írók akik tudják hirdetni népszerűsíteni a könyveiket.
 
    B) Megadja, hogy a rendszert mire akarják majd használni (funkcionális követelmények):
+
+        1,Könyvek keresése
+        2,Könyvek értékelése
+        3,Könyvekről vélemény írása
+        4,Könyvespolcok kialakítása olvasott, kívánságlista stb.
+        5,Barátok találása egymásnak könyvek ajánlása
+        6,Írók hirdessenek (Ehhez már Pro előfizetés kell)
+
 
    C) Milyen egyéb feltételeknek kell teljesülniük:
 
