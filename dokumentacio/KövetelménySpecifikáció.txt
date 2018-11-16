@@ -1,3 +1,10 @@
+
+//DELETE a felhasználó szemszögébõl írja le a
+         rendszert
+//HiÁNYZiK VAGY LEHETNE TÖBB JELÖLÉSE : //???// (így könnyen tudjuk majd keresni)
+//MEGJEGYZÉS Jelölése: <<>>
+
+
 Követelményspecifikáció
 
 Mit is jelent?
@@ -6,27 +13,27 @@ Alapjait a megrendelõkkel készített riportok adják
 
 Fõbb részei:
 
-Jelenlegi helyzet leírása.
+1, Jelenlegi helyzet leírása.
 
 	Jelenleg nem létezik olyan egységes magyar nyelvû könyvadatbázis ami kifejezetten csak a könyvek szeretõinek a
 	kiszolgálását szolgálná, azaz nem akarná egybõl eladni az adott könyvet a fogyasztónak. Többnyire webáruházak
 	kínálnak erre lehetõséget, de ezek a webáruházak, csak az álltaluk is forgalmazott könyvek esetében tartalmaznak
 	 leírásokat és adatokat a könyvrõl.
 
-Vágyálomrendszer leírása.
+2, Vágyálomrendszer leírása.
 
 	A vágyálom egy olyan weboldal létrehozása, melyen a könyvbarát fogyasztók, lehetõleg minnél több könyvrõl
 	információhoz jussanak, ezeket értékelhessék és beszélhessenek róla azokkal akik szintén olvasták az adott könyvet
 	 vagy egyszerûen csak ki szeretnék kérni a véleményt, hogy megéri-e számukra elolvasni vagy sem.
 
-A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
+3, A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
-Jelenlegi üzleti folyamatok modellje.
+4, Jelenlegi üzleti folyamatok modellje.
 
 	Jelenleg nem rendelkezünk egy alap marketingel ami, a leendõ oldalnak hozhat majd némi nézettséget, egy másik
 	könyvekkel kapcsolatos projekt alatt folytatott marketing kampány elérheti a kívánt célközönséget.
 
-Igényelt üzleti folyamatok modellje.
+5, Igényelt üzleti folyamatok modellje.
 
 	Fontos a reklámozás mint üzleti folyamat kiépítése, ez az ami megfelelõ látogatottság mellet lehetõvé teszi az oldal
 	 profitábilis mûködését. A reklámozásból befolyt összegbõl befektetés gyanánt nagyobb szervereket bérelhetünk az
@@ -46,7 +53,7 @@ Szabad Riport Szövege
 		 megfelelõ teret tudna nyújtani, aggresszív reklámozáson kívül amivel a könyves webáruházak esetében
 		 szembesülünk.
 
-Irányított Riport
+6, Irányított Riport
 	
 	SzoftverCég: Mi a véleménye az internetes könyvadatbázisról?
 	
@@ -54,7 +61,7 @@ Irányított Riport
 	
 	SzoftverCég: 
 
-Fogalomszótár.
+7, Fogalomszótár.
 
 
 Ezek közül a követelménylista kötelezõ

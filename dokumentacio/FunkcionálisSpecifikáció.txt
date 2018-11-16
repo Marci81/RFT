@@ -89,7 +89,7 @@
 
     A rendszer használati eseti lefedik a rendszer követelményeit sőt plusz segítő funkciókat is beletesz.
 
-
+    //???//
 
 10. Képernyő tervek.
 
