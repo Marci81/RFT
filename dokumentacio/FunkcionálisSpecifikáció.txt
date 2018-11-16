@@ -82,6 +82,11 @@ ajánlások felsorolása.
         4, Submit gomb megnyomásával kész is vagyunk
 
     C) Könyvek keresése
+
+        1, Navigációs részen kiválasztjuk a Kereső részt
+        2, Beírjuk mire szeretnénk keresni
+        3, Search gombbal ki is adja a találatokat
+
     D) Könyvek értékelése
     E) Könyvekről vélemény írása
     F) Könyvespolcok kialakítása olvasott, kívánságlista stb.
