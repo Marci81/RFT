@@ -53,6 +53,9 @@ ajánlások felsorolása.
                                | 8,Írók hirdessenek (Ehhez már Pro előfizetés kell)       |
                                ------------------------------------------------------------
 
+    E) Használati eset dokumentációja:
+
+        //???//
 
 
 
@@ -62,6 +65,27 @@ ajánlások felsorolása.
 10. Képernyő tervek.
 
 11. Forgatókönyvek.
+
+    A) Regisztráció:
+
+        1, Navigációs részen kiválasztjuk Sign Up linket
+        2,Kitöltjük az összes megadandó dolgot
+        3,Elfogadjuk a feltételeket
+        4,Regisztráció gombbal kész is vagyunk
+
+
+    B) Új Könyv felvétele
+
+
+
+    C) Könyvek keresése
+    D) Könyvek értékelése
+    E) Könyvekről vélemény írása
+    F) Könyvespolcok kialakítása olvasott, kívánságlista stb.
+    G) Barátok találása egymásnak könyvek ajánlása
+    H) Írók hirdessenek (Ehhez már Pro előfizetés kell)
+
+
 
 12. Funkció – követelmény megfeleltetés.
 
