@@ -18,13 +18,13 @@ Fõbb részei:
 	Jelenleg nem létezik olyan egységes magyar nyelvû könyvadatbázis ami kifejezetten csak a könyvek szeretõinek a
 	kiszolgálását szolgálná, azaz nem akarná egybõl eladni az adott könyvet a fogyasztónak. Többnyire webáruházak
 	kínálnak erre lehetõséget, de ezek a webáruházak, csak az álltaluk is forgalmazott könyvek esetében tartalmaznak
-	 leírásokat és adatokat a könyvrõl.
+	leírásokat és adatokat a könyvrõl.
 
 2, Vágyálomrendszer leírása.
 
 	A vágyálom egy olyan weboldal létrehozása, melyen a könyvbarát fogyasztók, lehetõleg minnél több könyvrõl
 	információhoz jussanak, ezeket értékelhessék és beszélhessenek róla azokkal akik szintén olvasták az adott könyvet
-	 vagy egyszerûen csak ki szeretnék kérni a véleményt, hogy megéri-e számukra elolvasni vagy sem.
+	vagy egyszerûen csak ki szeretnék kérni a véleményt, hogy megéri-e számukra elolvasni vagy sem.
 
 3, A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
@@ -35,7 +35,7 @@ Fõbb részei:
 
 5, Igényelt üzleti folyamatok modellje.
 
-	Fontos a reklámozás mint üzleti folyamat kiépítése, ez az ami megfelelõ látogatottság mellet lehetõvé teszi az oldal
+	 Fontos a reklámozás mint üzleti folyamat kiépítése, ez az ami megfelelõ látogatottság mellet lehetõvé teszi az oldal
 	 profitábilis mûködését. A reklámozásból befolyt összegbõl befektetés gyanánt nagyobb szervereket bérelhetünk az
 	 adatbázisunk bõvítéséhez és az oldal stabilitásának növelése érdekében.
 
@@ -45,6 +45,7 @@ Követelménylista.
 Irányított és szabad szöveges riportok szövege.
 
 Szabad Riport Szövege
+
 	Mit szeretne, mit csináljon az oldal?
 		-Szeretném, ha egy olyan rendszert készítenének amely megfelelõen kezeli a felhasználók által az adatbázishoz
 		 adott könyveket, tudnak benne keresni, rangsorolni és értekezni a témán belüli dolgokról. Mivel ilyen átfogó
@@ -64,21 +65,21 @@ Szabad Riport Szövege
 7, Fogalomszótár.
 
 
-Ezek közül a követelménylista kötelezõ
+    Ezek közül a követelménylista kötelezõ
 
-A követelménylistában funkcionális és nemfunkcionális követelmények vannak. A legtipikusabb nemfunkcionális
- követelmények ezek:
+    A követelménylistában funkcionális és nemfunkcionális követelmények vannak. A legtipikusabb nemfunkcionális
+     követelmények ezek:
 
-helyesség,
-használhatóság,
-megbízhatóság,
-adaptálhatóság / hordozhatóság,
-karbantarthatóság,
-hatékonyság / magas teljesítmény,
-hibatûrés / robosztusság,
-bõvíthetõség / flexibilitás,
-újrahasznosíthatóság,
-kompatibilitás,
-könnyen megvásárolható vagy letölthetõ.
+    helyesség,
+    használhatóság,
+    megbízhatóság,
+    adaptálhatóság / hordozhatóság,
+    karbantarthatóság,
+    hatékonyság / magas teljesítmény,
+    hibatûrés / robosztusság,
+    bõvíthetõség / flexibilitás,
+    újrahasznosíthatóság,
+    kompatibilitás,
+    könnyen megvásárolható vagy letölthetõ.
 
 
