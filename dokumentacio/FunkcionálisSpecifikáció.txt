@@ -1,5 +1,6 @@
 //DELETE a felhasználó szemszögéből írja le a
          rendszert
+//HiÁNYZiK VAGY LEHETNE TÖBB JELÖLÉSE : //???// (így könnyen tudjuk majd keresni)
 
 
 1.A rendszer céljai és nem céljai.
@@ -36,6 +37,24 @@ ajánlások felsorolása.
 
 
    C) Milyen egyéb feltételeknek kell teljesülniük:
+
+         //???//
+
+   D) Használati eset diagram:
+
+                               ------------------------------------------------------------
+                               | 1,Regisztráció                                           |
+                               | 2,Új Könyv felvétele                                     |
+                               | 3,Könyvek keresése                                       |
+        Felhasználók -->       | 4,Könyvek értékelése                                     |    <--Írók
+                               | 5,Könyvekről vélemény írása                              |
+                               | 6,Könyvespolcok kialakítása olvasott, kívánságlista stb. |
+                               | 7,Barátok találása egymásnak könyvek ajánlása            |
+                               | 8,Írók hirdessenek (Ehhez már Pro előfizetés kell)       |
+                               ------------------------------------------------------------
+
+
+
 
 
 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
