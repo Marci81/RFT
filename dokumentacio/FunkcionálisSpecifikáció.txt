@@ -31,9 +31,12 @@
     <<Lássd KövetelménySpecifiáció.txt>>
     <<Nem tudom másoljuk-e>>
 
-4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és
+4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
-ajánlások felsorolása.
+    <<Lássd KövetelménySpecifiáció.txt>>
+    <<<Nem tudom másoljuk-e>>
+
+
 5. Jelenlegi üzleti folyamatok modellje.
 
 6. Igényelt üzleti folyamatok modellje.
@@ -83,6 +86,10 @@ ajánlások felsorolása.
 
 
 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
+
+    A rendszer használati eseti lefedik a rendszer követelményeit sőt plusz segítő funkciókat is beletesz.
+
+
 
 10. Képernyő tervek.
 
