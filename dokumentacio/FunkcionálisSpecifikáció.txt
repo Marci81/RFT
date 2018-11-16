@@ -76,7 +76,10 @@ ajánlások felsorolása.
 
     B) Új Könyv felvétele
 
-
+        1,Navigációs részen kiválasztjuk Books linket
+        2,Ráklikkelünk a New Book gombra
+        3,Kitöltjük a könyv címét
+        4, Submit gomb megnyomásával kész is vagyunk
 
     C) Könyvek keresése
     D) Könyvek értékelése
