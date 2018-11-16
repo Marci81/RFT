@@ -97,6 +97,14 @@ ajánlások felsorolása.
         5,Submit gombbal kész is vagyunk
 
     E) Könyvekről vélemény írása
+
+        (Regisztráció szükséges)
+        1, Navigációs részen kiválasztjuk a Book linket vagy Keresünk
+        2, Ráklikkelünk az adott könyv Read More gombra
+        3, Itt kattintsunk New Comment gombra
+        4,Itt írhatunk kommentet (nem muszáj) / Értékelést is itt tudjuk megtenni
+        5,Submit gombbal kész is vagyunk
+
     F) Könyvespolcok kialakítása olvasott, kívánságlista stb.
     G) Barátok találása egymásnak könyvek ajánlása
     H) Írók hirdessenek (Ehhez már Pro előfizetés kell)
