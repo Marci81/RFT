@@ -2,12 +2,34 @@
          rendszert
 //HiÁNYZiK VAGY LEHETNE TÖBB JELÖLÉSE : //???// (így könnyen tudjuk majd keresni)
 
+//MEGJEGYZÉS Jelölése: <<>>
 
-1.A rendszer céljai és nem céljai.
+
+1. A rendszer céljai és nem céljai.
+
+    A) Célok:
+
+        1, egy olyan rendszert készítenének amely megfelelően kezeli a felhasználók által az adatbázishoz
+                 adott könyveket,
+        2, tudnak benne keresni,
+        3, rangsorolni és
+        4, értekezni a témán belüli dolgokról.
+
+    B) Nem Célok:
+
+        1, könyvek eladása,
+        2, vásárlása
+        3, weboldalak hirdetése ahol az adott könyvet leht kapni
 
 2. Jelenlegi helyzet leírása.
 
+   <<Lássd KövetelménySpecifiáció.txt>>
+   <<Nem tudom másoljuk-e>>
+
 3. Vágyálom rendszer leírása.
+
+    <<Lássd KövetelménySpecifiáció.txt>>
+    <<Nem tudom másoljuk-e>>
 
 4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és
 
