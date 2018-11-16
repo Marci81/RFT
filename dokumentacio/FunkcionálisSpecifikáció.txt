@@ -1,3 +1,7 @@
+//DELETE a felhasználó szemszögéből írja le a
+         rendszert
+
+
 1.A rendszer céljai és nem céljai.
 
 2. Jelenlegi helyzet leírása.
@@ -14,6 +18,17 @@ ajánlások felsorolása.
 7. Követelménylista.
 
 8. Használati esetek [Use cases].
+
+   A) Kik, és mire akarják használni a rendszert (Felhasználók információs igényeinek elemzése.):
+
+       A rendszert könyv rajongók fogják látogatni, akik folyamatosan új könyveket, akarnak olvasni.
+       Ezen kívül olyanoknak is alkalmas lesz, akik csak statisztikákat akarnak látni arról, hogy melyik könyvet hányan, olvassák mi a legnépszerűbb stb.
+       Továbbá írók akik tudják hirdetni népszerűsíteni a könyveiket.
+
+   B) Megadja, hogy a rendszert mire akarják majd használni (funkcionális követelmények):
+
+   C) Milyen egyéb feltételeknek kell teljesülniük:
+
 
 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
 
