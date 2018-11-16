@@ -28,6 +28,8 @@ Fõbb részei:
 
 3, A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
+    A) Adatvédelem:https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&from=HU
+
 4, Jelenlegi üzleti folyamatok modellje.
 
 	Jelenleg nem rendelkezünk egy alap marketingel ami, a leendõ oldalnak hozhat majd némi nézettséget, egy másik
