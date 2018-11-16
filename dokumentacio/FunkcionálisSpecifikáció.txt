@@ -106,6 +106,15 @@ ajánlások felsorolása.
         5,Submit gombbal kész is vagyunk
 
     F) Könyvespolcok kialakítása olvasott, kívánságlista stb.
+
+        (Regisztráció szükséges)
+        1, Profilra kattintunk
+        2,Könyvel polcaim fülre
+        3,Itt új könnyes polc gombra
+        4,Megadjuk a nevét
+        5, Ezután pedig tehetjük is be a könyveket az egyes könyvek melletti + ikonra kattintva
+
+
     G) Barátok találása egymásnak könyvek ajánlása
     H) Írók hirdessenek (Ehhez már Pro előfizetés kell)
 
