@@ -88,6 +88,14 @@ ajánlások felsorolása.
         3, Search gombbal ki is adja a találatokat
 
     D) Könyvek értékelése
+
+        (Regisztráció szükséges)
+        1, Navigációs részen kiválasztjuk a Book linket vagy Keresünk
+        2, Ráklikkelünk az adott könyv Read More gombra
+        3, Itt kattintsunk New Comment gombra
+        4,Itt írhatunk kommentet (nem muszáj) / Értékelést is itt tudjuk megtenni
+        5,Submit gombbal kész is vagyunk
+
     E) Könyvekről vélemény írása
     F) Könyvespolcok kialakítása olvasott, kívánságlista stb.
     G) Barátok találása egymásnak könyvek ajánlása
