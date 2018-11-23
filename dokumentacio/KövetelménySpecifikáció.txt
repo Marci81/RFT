@@ -85,6 +85,8 @@ Fõbb részei:
 
         SzoftverCég: Mi a véleménye az internetes könyvadatbázisról?
 
+            * Nos Magyarországon úgy vélem, hogy nincs olyan komoly adatbázis, amit eltudnának érni így akik nem tudnak angolul azoknak nehezebben tudnak adott könyvekrõl információkhoz jutni.
+
         SzoftverCég: Mit gondol arról, hogy a könyvek leírását és különbözõ jellemzõit egy saját szerveren tároljuk?
 
         SzoftverCég:
