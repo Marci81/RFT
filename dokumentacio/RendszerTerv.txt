@@ -135,7 +135,17 @@ A rendszerterv egy írásban rögzített specifikáció, amely leírja
 
 ======================================================================
 
-12,Telepítési terv
+12,Telepítési terv:
+
+    1,Node Js telepítése
+        link:https://nodejs.org/en/
+    2,NPM modulok telepítése package.json ből
+    3,MongodDB telepítése
+        link:https://www.mongodb.com/
+    4,Terminál megnyitása
+    5,mongod command futatja az adatbázist
+    6,Új terminál
+    7, node js elinditja a weboldalt
 
 ======================================================================
 
