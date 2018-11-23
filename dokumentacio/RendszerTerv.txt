@@ -8,6 +8,20 @@ A rendszerterv egy írásban rögzített specifikáció, amely leírja
 
 1, A rendszer célja
 
+    A) Célok:
+
+            1, egy olyan rendszert készítenének amely megfelelően kezeli a felhasználók által az adatbázishoz
+                     adott könyveket,
+            2, tudnak benne keresni,
+            3, rangsorolni és
+            4, értekezni a témán belüli dolgokról.
+
+        B) Nem Célok:
+
+            1, könyvek eladása,
+            2, vásárlása
+            3, weboldalak hirdetése ahol az adott könyvet leht kapni
+
 ======================================================================
 
 2,Projekt terv
