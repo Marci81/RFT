@@ -1,6 +1,3 @@
-
-//DELETE a felhasználó szemszögébõl írja le a
-         rendszert
 //HiÁNYZiK VAGY LEHETNE TÖBB JELÖLÉSE : //???// (így könnyen tudjuk majd keresni)
 //MEGJEGYZÉS Jelölése: <<>>
 
@@ -20,20 +17,28 @@ Fõbb részei:
 	kínálnak erre lehetõséget, de ezek a webáruházak, csak az álltaluk is forgalmazott könyvek esetében tartalmaznak
 	leírásokat és adatokat a könyvrõl.
 
+==================================================================================================================================
+
 2, Vágyálomrendszer leírása.
 
 	A vágyálom egy olyan weboldal létrehozása, melyen a könyvbarát fogyasztók, lehetõleg minnél több könyvrõl
 	információhoz jussanak, ezeket értékelhessék és beszélhessenek róla azokkal akik szintén olvasták az adott könyvet
 	vagy egyszerûen csak ki szeretnék kérni a véleményt, hogy megéri-e számukra elolvasni vagy sem.
 
+==================================================================================================================================
+
 3, A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
     A) Adatvédelem:https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679&from=HU
+
+==================================================================================================================================
 
 4, Jelenlegi üzleti folyamatok modellje.
 
 	Jelenleg nem rendelkezünk egy alap marketingel ami, a leendõ oldalnak hozhat majd némi nézettséget, egy másik
 	könyvekkel kapcsolatos projekt alatt folytatott marketing kampány elérheti a kívánt célközönséget.
+
+==================================================================================================================================
 
 5, Igényelt üzleti folyamatok modellje.
 
@@ -41,36 +46,37 @@ Fõbb részei:
 	 profitábilis mûködését. A reklámozásból befolyt összegbõl befektetés gyanánt nagyobb szervereket bérelhetünk az
 	 adatbázisunk bõvítéséhez és az oldal stabilitásának növelése érdekében.
 
-Követelménylista.
+==================================================================================================================================
 
+6, Követelménylista.
 
-Irányított és szabad szöveges riportok szövege.
+==================================================================================================================================
 
-Szabad Riport Szövege
+7, Irányított és szabad szöveges riportok szövege.
 
-	Mit szeretne, mit csináljon az oldal?
-		-Szeretném, ha egy olyan rendszert készítenének amely megfelelõen kezeli a felhasználók által az adatbázishoz
-		 adott könyveket, tudnak benne keresni, rangsorolni és értekezni a témán belüli dolgokról. Mivel ilyen átfogó
-		 weboldal még nem létezik, így mindenképpen kiemelkedõnek találom egy ilyen oldal létrehozását. Mivel jómagam
-		 is szeretem a könyveket így örömmel venném, ha egy igazán felhasználóbarát és az olvasás szerelmeseinek
-		 megfelelõ teret tudna nyújtani, aggresszív reklámozáson kívül amivel a könyves webáruházak esetében
-		 szembesülünk.
+    A) Szabad Riport Szövege
 
-6, Irányított Riport
-	
-	SzoftverCég: Mi a véleménye az internetes könyvadatbázisról?
-	
-	SzoftverCég: Mit gondol arról, hogy a könyvek leírását és különbözõ jellemzõit egy saját szerveren tároljuk?
-	
-	SzoftverCég: 
+       * Mit szeretne, mit csináljon az oldal?
 
-7, Fogalomszótár.
+            -Szeretném, ha egy olyan rendszert készítenének amely megfelelõen kezeli a felhasználók által az adatbázishoz
+             adott könyveket, tudnak benne keresni, rangsorolni és értekezni a témán belüli dolgokról. Mivel ilyen átfogó
+             weboldal még nem létezik, így mindenképpen kiemelkedõnek találom egy ilyen oldal létrehozását. Mivel jómagam
+             is szeretem a könyveket így örömmel venném, ha egy igazán felhasználóbarát és az olvasás szerelmeseinek
+             megfelelõ teret tudna nyújtani, aggresszív reklámozáson kívül amivel a könyves webáruházak esetében
+             szembesülünk.
+       *
 
+    B) Irányított Riport
 
-    Ezek közül a követelménylista kötelezõ
+        SzoftverCég: Mi a véleménye az internetes könyvadatbázisról?
 
-    A követelménylistában funkcionális és nemfunkcionális követelmények vannak. A legtipikusabb nemfunkcionális
-     követelmények ezek:
+        SzoftverCég: Mit gondol arról, hogy a könyvek leírását és különbözõ jellemzõit egy saját szerveren tároljuk?
+
+        SzoftverCég:
+
+==================================================================================================================================
+8, Fogalomszótár.
+
 
     helyesség,
     használhatóság,
