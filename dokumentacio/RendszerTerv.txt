@@ -100,7 +100,21 @@ A rendszerterv egy írásban rögzített specifikáció, amely leírja
 
 9,Adatbázis terv
 
+    MondoDB nem relációs adatbázis.
+    A könyvekhez tartozik egy referencia kommentekhez.
+    A userekhez pedig ugyancsak egy referencia a kommenthez
 
+    Példa: JavaScript Object ben comment propertiben az objektumban van a ref property ami a Comment Schemera ad referenciát
+
+    let bookSchema = new mongoose.Schema({
+        title: String,
+        image: String,
+        description: String,
+        comments: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Comment"
+        }]
+    });
 
 ======================================================================
 
