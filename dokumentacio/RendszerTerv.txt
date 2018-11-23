@@ -150,3 +150,5 @@ A rendszerterv egy írásban rögzített specifikáció, amely leírja
 ======================================================================
 
 13,Karbantartási terv
+
+    Jelenleg nincs tervezve a szoftver frisítése minden napra kész.
