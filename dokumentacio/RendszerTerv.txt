@@ -26,6 +26,27 @@ A rendszerterv egy írásban rögzített specifikáció, amely leírja
 
 2,Projekt terv
 
+    A) rendelkezésre álló erőforrások:
+
+        * emberek: 3
+        * idő(hét):15
+    B) Ütemterv
+
+        * 0-1 hét: Követelmény Specifikáció
+        * 1-2 hét: Funckcionális Specifikáció
+        * 2-3 hét: Rendszerterv
+        * 3-4 hét: Telepíteni szükséges eszközök
+        * 4-6 hét: Node, Express alapok megcsinálása
+        * 6-8 hét: MongodDB hez kötés
+        * 8-12 hét: Kinézet
+        * 12-15 hét: Tesztelés
+
+    C) Mérföldkövek
+
+        * Dokumentáció
+        * Adatbázis
+        * Tesztek
+
 ======================================================================
 
 3,Üzleti folyamatok modellje
