@@ -124,6 +124,15 @@ A rendszerterv egy írásban rögzített specifikáció, amely leírja
 
 11,Tesztterv
 
+    A) Ez a vidó alapján: https://www.youtube.com/watch?v=MLTRHc5dk6s&t=550s
+    B) Mocha Js & Chai használatával
+
+    C) A sikeres teszt kritériumait:Minden egyes teszt zöld tehát Passed
+
+    D) Fő tesztek: * RESTful routok tesztelése
+                   * Adatbázis
+                   * Végső teszt
+
 ======================================================================
 
 12,Telepítési terv
